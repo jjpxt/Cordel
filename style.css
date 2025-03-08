@@ -13,6 +13,7 @@ html, body{
     font-weight: 500;
     font-style: italic;
     font-size: 25px;
+    overflow-x: hidden;
 }
 
 header { 
@@ -74,7 +75,7 @@ section > p{
 }
 
 section#img01 {
-    background-image: url('/background001.jpg');
+    background-image: url('./background001.jpg');
     background-position: right center;
     background-size: cover;
     background-repeat: no-repeat;
